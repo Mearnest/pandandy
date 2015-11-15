@@ -1,0 +1,297 @@
+body {
+   background: rgba(0, 128, 128, 0.58) url('/images/background.jpg') repeat;
+   font-size: 16px;
+}
+
+body.home {
+   text-align: center;
+}
+
+h1, h3 {
+   text-align: center;
+   margin-left: 200px;
+   color: #fff;
+}
+
+h1 {
+   font: 4em 'Sniglet', cursive;
+   font-weight: 800;
+   margin-top: 60px;
+}
+
+h1 a {
+   color: #fff; 
+}
+
+h1 a:hover {
+   text-decoration: none;
+   color: #fff;
+}
+
+h1.home, h3.home {
+   margin-left: 0;
+}
+
+h3.home {
+   margin-top: 40px;
+}
+
+div.buttons {
+   margin-top: 120px;
+}
+
+   #find-recipe-btn {
+      margin-right: 160px;
+   }
+
+   #add-btn {
+
+   }
+
+.container h2, .container h3 {
+   margin-top: 0;
+   text-align: left;
+   margin-left: 0;
+   color: #000;
+}
+
+.container {
+   margin-top: 40px;
+   padding: 20px;
+   position: relative;
+}
+
+.container.ingredients {
+   height: 540px;
+}
+
+.container.recipe {
+   height: 520px;
+   background-color: white;
+   display: none;
+   z-index: 100;
+}
+
+   img.recipe {
+      max-width: 340px;
+   }
+
+   .recipe ul {
+      padding-left: 20px;
+   }
+
+   .row.prep {
+      margin-top: 20px;
+   }
+
+   ul.recipe-ingredients {
+      display: inline-block;
+      vertical-align: block;
+      margin-right: 10px;
+   }
+
+.ingredient-select {
+   position: relative;
+   background-color: #C9E3E7;
+   height: 460px;
+   max-width: 200px;
+   margin-left: 40px;
+   padding: 10px;
+   text-align: center;
+   font-weight: bold;
+   border-radius: 5px;
+}
+
+#search-ingredient {
+   width: 160px;
+}
+
+#search-result {
+   height: 325px;
+   margin-top: 14px;
+   padding-left: 30px;
+   text-align: left;
+}
+
+#ingredient-count {
+   position: absolute;
+   top: 56px;
+   left: 148px;
+   padding: 4px 8px;
+   border: 1px solid;
+   border-radius: 5px;
+   font-weight: normal;
+}
+
+#find-btn {
+   width: 70%;
+}
+
+img.counter-top {
+   position: absolute;
+   bottom: 0;
+   left: 400px;
+}
+
+img.ingredient {
+   position: absolute;
+   z-index: 1;
+   cursor: move;
+   max-width: 140px;
+   max-height: 120px;
+   display: none;
+}
+
+img.beef-stock {
+   left: 668px;
+   top: 204px;
+}
+
+img.brandy {
+   left: 408px;
+   top: 229px;
+   height: 100px;
+   z-index: 2;
+}
+
+img.butter {
+   left: 771px;
+   top: 214px;
+}
+
+img.french-bread {
+   left: 844px;
+   top: 238px;
+   height: 90px;
+}
+
+img.olive-oil {
+   left: 818px;
+   top: 208px;
+}
+
+img.onions {
+   left: 632px;
+   top: 263px;
+   width: 80px;
+}
+
+img.parmesan {
+   left: 591px;
+   top: 220px;
+   height: 80px;
+   z-index: 4;
+}
+
+img.provolone {
+   left: 738px;
+   top: 272px;
+   height: 80px;
+}
+
+img.pumpkin {
+   left: 929px;
+   top: 250px;
+   width: 100px;
+}
+
+img.swiss-cheese {
+   left: 532px;
+   top: 274px;
+   height: 50px;
+   z-index: 3;
+}
+
+img.thyme {
+   left: 476px;
+   top: 217px;
+}
+
+#cover {
+   background-color: black;
+   opacity: 0.65;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 99;
+   display: none;
+}
+
+@media (max-width: 1380px) {
+   h3.title {
+      margin-bottom: 0;
+   }
+
+   .container {
+      margin-top: -40px;
+   }
+
+   .container.ingredients {
+      height: 480px;
+   }
+
+   .container.recipe {
+      height: 460px;
+   }
+
+   .row.prep {
+      margin-top: 20px;
+   }
+
+   .ingredient-select {
+      height: 400px;
+      max-width: 200px;
+      margin-left: 40px;
+      padding: 10px;
+   }
+
+   #search-result {
+      height: 260px;
+   }
+
+   img.beef-stock {
+      top: 144px;
+   }
+
+   img.brandy {
+      top: 169px;
+   }
+
+   img.butter {
+      top: 154px;
+   }
+
+   img.french-bread {
+      top: 178px;
+   }
+
+   img.olive-oil {
+      top: 148px;
+   }
+
+   img.onions {
+      top: 203px;
+   }
+
+   img.parmesan {
+      top: 160px;
+   }
+
+   img.provolone {
+      top: 212px;
+   }
+
+   img.pumpkin {
+      top: 190px;
+   }
+
+   img.swiss-cheese {
+      top: 214px;
+   }
+
+   img.thyme {
+      top: 157px;
+   }
+}
